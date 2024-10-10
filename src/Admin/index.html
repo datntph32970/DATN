@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./output.css" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body{
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>alooooooo12314231</h1>
+
+    <div id="top-nav" class="h-[60px] flex justify-between border-b-2 drop-shadow-lg" >
+        <div id="Logo" class="mx-[30px] my-auto flex">
+            <img class="h-[35px] me-2" src="../img/460329380_446787545052127_6852952264704804586_n.jpg" alt="">
+            <h1 class="leading-[35px] font-normal text-[20px] text-[#525B75] opacity-[80%] " style="font-family: Kanit;">Quản lý Website bán điện thoại</h1>
+        </div>
+        <div id="searchFunction" class="my-auto relative ">
+            <input class="border border-[#CBD0DD] rounded-2xl w-[400px] h-[33px] shadow-none ps-7 text-sm text-[#8A94AD] hover:w-[580px] focus:w-[580px] focus:outline-[#a9adb8be] transition-all duration-300 ease-in-out" type="text" name="" id="" placeholder="Search function...">
+            <img src="../img/search.png" class="absolute top-[50%] left-2 translate-y-[-50%] size-[13px] pointer-events-none" alt="">
+        </div>
+        <div class="my-auto ms-[200px] me-[30px] flex">
+            <div class="relative mx-2">
+                <input class="rounded-full size-10 hover:bg-[#7d7ffa38]" type="button" name="" id="">
+                <img src="../img/notification.svg" class="absolute top-[50%] left-[50%]  translate-x-[-50%] translate-y-[-50%] size-5 pointer-events-none" alt="">
+            </div>
+            <div class=" mx-2">
+                <img src="../img/avatar.jpg" class=" size-10 rounded-full hover:shadow-lg" alt="">
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
